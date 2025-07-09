@@ -27,4 +27,9 @@
 
 Proyek ini berhasil mengimplementasikan sistem monitoring tinggi air berbasis IoT yang dapat menampilkan dan mengirim data tinggi permukaan air secara real-time. Platform Wokwi dan Blynk mempermudah simulasi dan pemantauan jarak jauh. Sistem ini dapat dikembangkan lebih lanjut untuk skala pertanian nyata.</p>
 
+## Monitoring Ketinggian Air Irigasi
+
+Sistem ini memanfaatkan ESP32, sensor ultrasonik HC-SR04, dan LCD untuk memantau ketinggian air secara real-time, serta mengirim notifikasi melalui Blynk.
+
+
 
