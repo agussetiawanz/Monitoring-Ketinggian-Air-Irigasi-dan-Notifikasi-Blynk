@@ -1,6 +1,6 @@
 # Proyek Akhir Sistem Mikrokontroller
 <ul>
-   <li>Nama Mahasiswa: Agus Setiawan</li>
+   <li>Nama : Agus Setiawan</li>
    <li>NPM : 21552011225</li>
    <li>Kelas : TIF RM 22 CID</li>
   <li>Mata Kuliah : Sistem Mikrokontroller</li>
