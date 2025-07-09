@@ -31,6 +31,6 @@ Proyek ini berhasil mengimplementasikan sistem monitoring tinggi air berbasis Io
 
 Sistem ini memanfaatkan ESP32, sensor ultrasonik HC-SR04, dan LCD untuk memantau ketinggian air secara real-time, serta mengirim notifikasi melalui Blynk.
 
-![Monitoring Air](https://github.com/username/repo-name/blob/main/img/MonitoringAir.jpg?raw=true)
+![Monitoring Air](https://github.com/agussetiawanz/Monitoring-Ketinggian-Air-Irigasi-dan-Notifikasi-Blynk/commit/4fb480ea4225dffce47c1e9fa4e4a7e9c22938ca))
 
 
