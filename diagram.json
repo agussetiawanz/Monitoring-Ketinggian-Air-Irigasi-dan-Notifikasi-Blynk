@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Hải Agus Setiawan",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 38.4, "left": -158.36, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": 212.7,
+      "left": 43.9,
+      "attrs": { "distance": "50" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 35.2,
+      "left": 15.2,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:5V", "ultrasonic1:VCC", "red", [ "h-28.65", "v28.8", "h0", "v67.2", "h297.6" ] ],
+    [ "esp:GND.1", "ultrasonic1:GND", "black", [ "h-19.05", "v172.8", "h316.8", "v-57.6" ] ],
+    [ "lcd1:GND", "esp:GND.1", "black", [ "v-38.4", "h-192", "v192" ] ],
+    [ "lcd1:VCC", "esp:5V", "red", [ "h-48", "v259.3", "h-153.6", "v-96" ] ],
+    [ "esp:21", "lcd1:SDA", "yellow", [ "h57.6", "v-29" ] ],
+    [ "esp:25", "ultrasonic1:ECHO", "blue", [ "v182.4", "h288.95" ] ],
+    [ "ultrasonic1:TRIG", "esp:26", "green", [ "v9.6", "h-326.8", "v-163.2" ] ],
+    [ "esp:22", "lcd1:SCL", "purple", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
